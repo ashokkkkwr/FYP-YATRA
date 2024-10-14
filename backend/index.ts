@@ -31,6 +31,7 @@ io.on('connection', (socket) => {
         console.log('User disconnected');
     });
 });
+console.log("first")
 
 // Start the server
 server.listen(3000, () => {
